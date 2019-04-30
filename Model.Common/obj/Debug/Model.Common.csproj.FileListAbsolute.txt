@@ -1,0 +1,12 @@
+C:\Users\mvadlja\Source\Repos\Test\Model.Common\bin\Debug\Model.Common.dll
+C:\Users\mvadlja\Source\Repos\Test\Model.Common\bin\Debug\Model.Common.pdb
+C:\Users\mvadlja\Source\Repos\Test\Model.Common\obj\Debug\Model.Common.csprojAssemblyReference.cache
+C:\Users\mvadlja\Source\Repos\Test\Model.Common\obj\Debug\Model.Common.csproj.CoreCompileInputs.cache
+C:\Users\mvadlja\Source\Repos\Test\Model.Common\obj\Debug\Model.Common.dll
+C:\Users\mvadlja\Source\Repos\Test\Model.Common\obj\Debug\Model.Common.pdb
+C:\Users\Mirko\source\repos\Test\Model.Common\bin\Debug\Model.Common.dll
+C:\Users\Mirko\source\repos\Test\Model.Common\bin\Debug\Model.Common.pdb
+C:\Users\Mirko\source\repos\Test\Model.Common\obj\Debug\Model.Common.csprojAssemblyReference.cache
+C:\Users\Mirko\source\repos\Test\Model.Common\obj\Debug\Model.Common.csproj.CoreCompileInputs.cache
+C:\Users\Mirko\source\repos\Test\Model.Common\obj\Debug\Model.Common.dll
+C:\Users\Mirko\source\repos\Test\Model.Common\obj\Debug\Model.Common.pdb
