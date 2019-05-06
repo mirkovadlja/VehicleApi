@@ -1,4 +1,5 @@
-﻿using Test.Model.Common;
+﻿using System.Collections.Generic;
+using Test.Model.Common;
 
 namespace Test.Model
 {
@@ -7,5 +8,6 @@ namespace Test.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string Abrv { get; set; }
+       // public ICollection<IVehicleModelDTO> VehicleModels { get; set; }
     }
 }

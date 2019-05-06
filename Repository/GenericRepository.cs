@@ -31,6 +31,7 @@ namespace Test.Repository
         {
             return await dbSet.FindAsync(id);
         }
+
         public virtual async Task<IEnumerable<T>> GetAll(
               Expression<Func<T, bool>> filter = null,
               Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
@@ -58,7 +59,6 @@ namespace Test.Repository
                 return await query.ToListAsync();
             }
         }
-
         public virtual async Task<T> Insert(T t)
         {
             context.Set<T>().Add(t);

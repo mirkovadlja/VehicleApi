@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IVehicleModel.cs" />
     <Compile Include="VehicleMakeBindingModel.cs" />
     <Compile Include="VehicleModelBindingModel.cs" />
     <Compile Include="VehicleModelDTO.cs" />

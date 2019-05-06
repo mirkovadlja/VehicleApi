@@ -57,9 +57,11 @@
     <Compile Include="Migrations\201905061100204_change.Designer.cs">
       <DependentUpon>201905061100204_change.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905061354233_relatisnship added.cs" />
+    <Compile Include="Migrations\201905061354233_relatisnship added.Designer.cs">
+      <DependentUpon>201905061354233_relatisnship added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\IVehicleMake.cs" />
-    <Compile Include="Models\IVehicleModel.cs" />
     <Compile Include="VehicleContext.cs" />
     <Compile Include="Models\VehicleModel.cs" />
     <Compile Include="Models\VehicleMake.cs" />
@@ -75,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905061100204_change.resx">
       <DependentUpon>201905061100204_change.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905061354233_relatisnship added.resx">
+      <DependentUpon>201905061354233_relatisnship added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

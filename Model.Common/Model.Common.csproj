@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IVehicleMakeBindingModel.cs" />
+    <Compile Include="IVehicleModel.cs" />
     <Compile Include="IVehicleModelBindingModel.cs" />
     <Compile Include="IVehicleModelDTO.cs" />
     <Compile Include="IVehicleMakeDTO.cs" />

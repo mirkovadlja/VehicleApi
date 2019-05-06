@@ -1,9 +1,12 @@
-﻿namespace Test.DAL.Models
+﻿using System.Collections.Generic;
+
+namespace Test.DAL.Models
 {
-    public class VehicleMake : IVehicleMake
+    public class VehicleMake
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Abrv { get; set; }
+        public ICollection<VehicleModel> VehicleModels { get; set; }
     }
 }

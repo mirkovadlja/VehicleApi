@@ -27,3 +27,4 @@ C:\Users\mvadlja\Source\Repos\Test\DAL\obj\Debug\DAL.csproj.GenerateResource.cac
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.fixedmigrations.resources
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.change.resources
+C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.relatisnshipadded.resources

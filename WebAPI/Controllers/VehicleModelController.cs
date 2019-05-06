@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Test.Model;
 using Test.Service;
 using Test.Service.Common;
@@ -8,6 +9,7 @@ using Test.Service.Mapping;
 
 namespace Test.WebAPI.Controllers
 {
+    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
     public class VehicleModelController : ApiController, IVehicleModelController
     {
         private IMapper Mapper;

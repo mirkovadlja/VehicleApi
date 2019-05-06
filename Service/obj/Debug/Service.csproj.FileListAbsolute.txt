@@ -98,3 +98,5 @@ C:\Users\Mirko\source\repos\Test\Service\bin\Debug\Ninject.Web.WebApi.WebHost.xm
 C:\Users\Mirko\source\repos\Test\Service\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Mirko\source\repos\Test\Service\bin\Debug\System.Web.Http.xml
 C:\Users\Mirko\source\repos\Test\Service\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Mirko\source\repos\Test\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mirko\source\repos\Test\Service\bin\Debug\EntityFramework.SqlServer.xml

@@ -15,5 +15,14 @@ namespace Test.DAL
         public DbSet<VehicleMake> VehicleMakes { get; set; }
         public DbSet<VehicleModel> VehicleModels { get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            // configures one-to-many relationship
+            modelBuilder.Entity<VehicleModel>()
+                .HasRequired( model => model.VehicleMake)
+                .WithMany( make => make.VehicleModels)
+                .HasForeignKey<int>( model => model.VehicleMakeId);
+        }
     }
+
 }

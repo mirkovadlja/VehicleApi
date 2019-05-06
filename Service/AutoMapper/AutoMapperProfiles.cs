@@ -9,12 +9,10 @@ namespace Test.Service.Mapping
     {
         public AutoMapperProfiles()
         {
-            CreateMap<VehicleMake, VehicleMakeDTO>();
-            CreateMap<VehicleModel, VehicleModelDTO>();
-            CreateMap<VehicleModelBindingModel, VehicleModelDTO>();
-            CreateMap<VehicleMakeBindingModel, VehicleMakeDTO>();
-
-            CreateMap<Task<VehicleMake>, VehicleMakeDTO>();
+            CreateMap<VehicleMake, VehicleMakeDTO>().ReverseMap().ForMember(x => x.VehicleModels, opt => opt.Ignore()); ;
+            CreateMap<VehicleModel, VehicleModelDTO>().ReverseMap();
+            CreateMap<VehicleModelBindingModel, VehicleModelDTO>().ReverseMap();
+            CreateMap<VehicleMakeBindingModel, VehicleMakeDTO>().ReverseMap();
         }
     }
 }
