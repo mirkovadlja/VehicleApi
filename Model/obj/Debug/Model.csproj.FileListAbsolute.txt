@@ -19,3 +19,6 @@ C:\Users\Mirko\source\repos\Test\Model\obj\Debug\Model.pdb
 C:\Users\mvadlja\Source\Repos\Test\Model\bin\Debug\AutoMapper.dll
 C:\Users\mvadlja\Source\Repos\Test\Model\bin\Debug\AutoMapper.pdb
 C:\Users\mvadlja\Source\Repos\Test\Model\bin\Debug\AutoMapper.xml
+C:\Users\Mirko\source\repos\Test\Model\bin\Debug\AutoMapper.dll
+C:\Users\Mirko\source\repos\Test\Model\bin\Debug\AutoMapper.pdb
+C:\Users\Mirko\source\repos\Test\Model\bin\Debug\AutoMapper.xml

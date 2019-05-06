@@ -49,9 +49,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IVehicleContext.cs" />
-    <Compile Include="Migrations\201904290752593_InitialMigrations.cs" />
-    <Compile Include="Migrations\201904290752593_InitialMigrations.Designer.cs">
-      <DependentUpon>201904290752593_InitialMigrations.cs</DependentUpon>
+    <Compile Include="Migrations\201905061041001_fixed migrations.cs" />
+    <Compile Include="Migrations\201905061041001_fixed migrations.Designer.cs">
+      <DependentUpon>201905061041001_fixed migrations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905061100204_change.cs" />
+    <Compile Include="Migrations\201905061100204_change.Designer.cs">
+      <DependentUpon>201905061100204_change.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IVehicleMake.cs" />
@@ -66,8 +70,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201904290752593_InitialMigrations.resx">
-      <DependentUpon>201904290752593_InitialMigrations.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201905061041001_fixed migrations.resx">
+      <DependentUpon>201905061041001_fixed migrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905061100204_change.resx">
+      <DependentUpon>201905061100204_change.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

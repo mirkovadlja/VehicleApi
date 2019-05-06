@@ -34,8 +34,10 @@ namespace Test.Service
 
         public async Task<IEnumerable<IVehicleModelDTO>> GetAll()
         {
-            IEnumerable<VehicleModel> vehicleModels = await UoW.VehicleModelRepository.GetAll();
-            return vehicleModels.Select(vehicleModel => Mapper.Map<VehicleModelDTO>(vehicleModel));
+
+            IEnumerable<VehicleModel> vehicleModels = await UoW.VehicleModelRepository.GetAll(includeProperties: "VehicleMake");
+            var a = Mapper.Map<IEnumerable<VehicleModelDTO>>(vehicleModels);
+            return a;
         }
 
         public async Task<IVehicleModelDTO> Insert(IVehicleModelDTO entity)

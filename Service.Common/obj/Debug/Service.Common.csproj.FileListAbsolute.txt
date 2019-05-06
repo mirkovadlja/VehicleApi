@@ -37,3 +37,4 @@ C:\Users\Mirko\source\repos\Test\Service.Common\obj\Debug\Service.Common.csproj.
 C:\Users\Mirko\source\repos\Test\Service.Common\obj\Debug\Service.Common.dll
 C:\Users\Mirko\source\repos\Test\Service.Common\obj\Debug\Service.Common.pdb
 C:\Users\mvadlja\Source\Repos\Test\Service.Common\bin\Debug\Service.Common.dll.config
+C:\Users\Mirko\source\repos\Test\Service.Common\bin\Debug\Service.Common.dll.config

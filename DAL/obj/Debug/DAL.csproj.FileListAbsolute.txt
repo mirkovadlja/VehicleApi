@@ -18,12 +18,12 @@ C:\Users\Mirko\source\repos\Test\DAL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Mirko\source\repos\Test\DAL\bin\Debug\EntityFramework.xml
 C:\Users\Mirko\source\repos\Test\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.Initialmigration.resources
-C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.dll
 C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.pdb
-C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.test.resources
 C:\Users\mvadlja\Source\Repos\Test\DAL\obj\Debug\DAL.Migrations.InitialMigrations.resources
 C:\Users\mvadlja\Source\Repos\Test\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.fixedmigrations.resources
+C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\Mirko\source\repos\Test\DAL\obj\Debug\DAL.Migrations.change.resources

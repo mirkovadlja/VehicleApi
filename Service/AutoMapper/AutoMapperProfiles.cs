@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using System.Threading.Tasks;
 using Test.DAL.Models;
 using Test.Model;
 
@@ -12,6 +13,8 @@ namespace Test.Service.Mapping
             CreateMap<VehicleModel, VehicleModelDTO>();
             CreateMap<VehicleModelBindingModel, VehicleModelDTO>();
             CreateMap<VehicleMakeBindingModel, VehicleMakeDTO>();
+
+            CreateMap<Task<VehicleMake>, VehicleMakeDTO>();
         }
     }
 }

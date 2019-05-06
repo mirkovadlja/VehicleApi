@@ -10,9 +10,11 @@ namespace Test.DAL.Models
     public class VehicleModel : IVehicleModel
     {
         public int Id { get; set; }
-        public int VehicleMakeId { get; set; }
+        
         public string Name { get; set; }
         public string Abrv { get; set; }
-        public VehicleMake VehicleMake { get; set; }
+        public int VehicleMakeId { get; set; }
+        [ForeignKey("VehicleMakeId")]
+        public IVehicleMake VehicleMake { get; set; }
     }
 }

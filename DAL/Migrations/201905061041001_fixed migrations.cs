@@ -3,7 +3,7 @@ namespace DAL.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialMigrations : DbMigration
+    public partial class fixedmigrations : DbMigration
     {
         public override void Up()
         {
