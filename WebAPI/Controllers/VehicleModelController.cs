@@ -22,15 +22,14 @@ namespace Test.WebAPI.Controllers
             this.Service = service;
         }
 
-        
-
-        [Route("api/vehiclemodel/get")]
+        [Route("api/vehiclemodel/getall/{id?}")]
         [HttpGet]
-        public async Task<IHttpActionResult> Get()
+        public async Task<IHttpActionResult> GetAll(int? id = null)
         {
-            var vehicleModels = await Service.GetAll();
+            var vehicleModels = await Service.GetAll(id);
             return Ok(vehicleModels);
         }
+
 
         [Route("api/vehiclemodel/get/{id}")]
         [HttpGet]

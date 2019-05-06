@@ -32,10 +32,17 @@ namespace Test.Service
             return Mapper.Map<VehicleModelDTO>(vehicleModel);
         }
 
-        public async Task<IEnumerable<IVehicleModelDTO>> GetAll()
+        public async Task<IEnumerable<IVehicleModelDTO>> GetAll(int? id)
         {
-
-            IEnumerable<VehicleModel> vehicleModels = await UoW.VehicleModelRepository.GetAll(includeProperties: "VehicleMake");
+            IEnumerable<VehicleModel> vehicleModels;
+            if (id == null)
+            {
+                vehicleModels = await UoW.VehicleModelRepository.GetAll(includeProperties: "VehicleMake");
+            }
+            else {
+               vehicleModels = await UoW.VehicleModelRepository.GetAll(filter: x => x.VehicleMakeId == id, includeProperties: "VehicleMake");
+            }
+            
             var a = Mapper.Map<IEnumerable<VehicleModelDTO>>(vehicleModels);
             return a;
         }
